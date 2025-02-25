@@ -10,7 +10,7 @@ document.getElementById("btn-login").addEventListener("click",
         if(accountNumber.length === 11){
             if(convertedPin === 1234){
             
-                window.location.href="/main.html"
+                window.location.href="/add-money.html"
             }
             else{
                 alert("Invalid PIN");
