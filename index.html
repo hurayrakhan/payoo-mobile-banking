@@ -19,21 +19,22 @@
                 <div class="hero bg-gray-200 ">
                     <div class="hero-content flex-col lg:flex-row-reverse">
                       <div class="card bg-base-100 w-full shrink-0 shadow-2xl">
-                        <div class="card-body">
+                        <form class="card-body">
                           <fieldset class="fieldset">
                             <label class="fieldset-label">Account Number</label>
-                            <input type="text" class="input" placeholder="Account Number" />
+                            <input id="account-number" type="text" class="input" required placeholder="Account Number" />
                             <label class="fieldset-label">PIN</label>
-                            <input type="text" class="input" placeholder="type your PIN" />
+                            <input id="pin" type="text" class="input" placeholder="type your PIN" required />
                             <div><a class="link link-hover">Forgot password?</a></div>
-                            <button class="btn btn-neutral mt-4">Login</button>
+                            <button id="btn-login" class="btn btn-neutral mt-4">Login</button>
                           </fieldset>
-                        </div>
+                        </form>
                       </div>
                     </div>
                   </div>
 
     </section>
+    <script src="js/login.js"></script>
 
 </body>
 
