@@ -53,7 +53,9 @@
                 </div>
             </div>
         </section>
+        <!-- add money section -->
         <section>
+            <h3 class="text-3xl font-bold text-center pt-10">Add Money</h3>
             <div class=" bg-gray-200 ">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                   <div class="card  w-full shrink-0 shadow-2xl">
@@ -79,10 +81,43 @@
                 </div>
               </div>
         </section>
+        <section id="cash-out">
+            <h3 class="text-3xl font-bold text-center pt-10">Cashout</h3>
+            <div class=" bg-gray-200 ">
+                <div class="hero-content flex-col lg:flex-row-reverse">
+                  <div class="card  w-full shrink-0 shadow-2xl">
+                    <form class="card-body">
+                        <select class="select" name="" id="">
+                            <option selected disabled value="">Select Banking</option>
+                            <option value="Bkash">Bkash</option>
+                            <option value="Nagad">Nagad</option>
+                            <option value="dbbl">DBBL</option>
+                        </select>
+                      <fieldset class="fieldset">
+                        <label class="fieldset-label">Agent Number</label>
+                        <input id="agent-number" type="text" class="input" required placeholder="Agent Number" />
+                        <label class="fieldset-label">Ammount</label>
+                        <input id="amount" type="text" class="input" required placeholder="Amount" />
+                        <label class="fieldset-label">PIN</label>
+                        <input id="pin" type="text" class="input" placeholder="type your PIN" required />
+                        <div><a class="link link-hover">Forgot password?</a></div>
+                        <button id="btn-addMoney" class="btn btn-neutral bg-blue-700 border-none mt-4">Cash Out</button>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section id="transections">
+            <h3 class="text-3xl font-bold text-center pt-10">Transections</h3>
+            <div id="transection-container">
 
+            </div>
+        </section>
 
 
     </section>
+    
     <script src="./js/addMoney.js"></script>
     
 </body>
